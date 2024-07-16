@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <style>
+        form{
+            border: 1px solid black;
+            padding:10px;
+            width: 30%;
+            margin:5% auto;
+        }
+        .submit{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Every kind of form element</h2>
+        <hr>
+        <label for="name">User Name <br>
+            <input type="text" name="name" id="name"> A value is required
+        </label>
+        <hr>
+        <label for="password">Password <br>
+            <input type="password" name="password" id="password">
+        </label> <hr>
+        <label for="textarea">
+            <textarea name="textarea" id="textarea">Enter the description here</textarea>
+        </label><hr>
+        <label for="radio">Pick One <br>
+            <input type="radio" name="radio" id="radio">Choice 1 is pre-selected and shows the text wraps nicely, if it goes to multiple lines. <br>
+            <input type="radio" name="radio" id="radio">Choice 2 - this shows the text wraps nicely, if it goes to multiple lines.
+        </label>
+        <hr>
+        <label for="checkbox">Pick Any <br>
+            <input type="checkbox" name="checkbox" id="checkbox">Choice 1 <br>
+            <input type="checkbox" name="checkbox" id="checkbox">Choice 2 is pre-checked <br>
+            <input type="checkbox" name="checkbox" id="checkbox">Choice 3 is add as many as you need!
+        </label><br><hr>
+        <label for="drink">Need a drink?<br>
+            <select name="drink" id="drink">
+                <option value="choice One">Choice one</option>
+                <option value="choice two">Choice two</option>
+                <option value="choice three">Choice three</option>
+                <option value="choice four">Choice four</option>
+            </select>
+        </label><br><hr>
+        <div class="submit">
+            <input type="submit" value="submit this form">
+        </div>
+    </form>
+</body>
+</html>
